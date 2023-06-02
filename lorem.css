@@ -1,0 +1,95 @@
+body{
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+.rect{
+    border-radius: 25px;
+    width: 810px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:calc(50% - 192px);
+    display: flex;
+}
+
+.square{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background: rgb(249,255,0);
+    background: linear-gradient(129deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(252,176,69,1) 0%, rgba(250,121,34,1) 0%, rgba(237,40,40,1) 100%);
+    transform: translate(-20%, 16%);
+    margin-top: 2px;
+    box-shadow: 10px 10px 40px 0px rgba(237,40,40,1);
+}
+
+.text{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 78px;
+    margin-left: 330px;
+    font-family: "Source Sans Pro", monospace;
+    width: 450px;
+}
+
+.first{
+    color: #75747a;
+    font-size: 18px;
+    font-weight: 600;
+    height: 0px;
+}
+
+.second{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.third{
+    color: #75747a;
+    font-size: 18px;
+}
+
+.button{
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(180,180,180);
+    position: relative;
+    top: 40%;
+}
+
+.notcircle{
+    width: 10px;
+    height: 30px;
+    border-radius: 20px;
+    background: rgba(253,29,29,1);
+    position: relative;
+    top: 42%;
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(180,180,180);
+    position: relative;
+    top: 44%;
+}
